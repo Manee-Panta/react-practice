@@ -1,0 +1,24 @@
+.task2-main{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: rgb(128, 125, 125);
+  height: 100vh;
+}
+.parent{
+    align-items: center;
+    text-align: center;
+    display: flex;
+  flex-direction: column;
+    border: 3px solid black;
+    padding: 30px;
+
+}
+.add{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+   
+  
+}

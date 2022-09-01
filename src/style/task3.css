@@ -1,0 +1,54 @@
+.task3-main{
+    height: 100vh;
+    border: 3px solid black;
+    background-color: rgb(169, 165, 165);
+    padding: 20px;
+}
+.task3-body{
+background-color: rgb(154, 144, 144);
+height: 100%;
+
+}
+
+.row{
+justify-content: center;
+display: flex;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    margin: 30px 50px 0 20px;
+    border: 3px solid black;
+}
+.box2{
+    height: 400px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 30px 50px 0 20px;
+}
+.box3{
+    height: 300px;
+    width: 300px;
+    border: 3px solid black;
+    margin: 30px 50px 0 20px;
+}
+.box4{
+   height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 30px 50px 0 20px;
+}
+.box5{
+    height: 100px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 30px 50px 0 20px;
+
+}
+.box6{
+    height: 300px;
+    width: 200px;
+    border: 3px solid black;
+    margin: 30px 50px 0 20px;
+}

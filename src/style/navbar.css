@@ -1,0 +1,22 @@
+
+.navbar{
+    background-color: #111;
+    height: 10vh;
+    width: 100vw;
+}
+
+    
+.navbar-main a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+   
+}
+ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}   
+
