@@ -20,7 +20,6 @@ import Service5 from "./components/Service5";
 import Contact5 from "./components/Contact5";
 import Protected from "./components/Protected";
 import Task10 from "./components/Task10";
-import New from "./components/new";
 import LandingPage from "./components/LandingPage";
 
 
@@ -63,7 +62,7 @@ const App = () => {
         <Route path="/task8" element={<Task8/>}/>
         <Route path="/task9" element={<Task9/>}/>
         <Route path="/task10" element={<Task10/>}/>
-        <Route path="/new" element={<New/>}/>
+   
 
       </Routes>
 
