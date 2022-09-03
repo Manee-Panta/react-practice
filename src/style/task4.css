@@ -1,0 +1,133 @@
+
+.portfolio-nav {
+  height: 7%;
+  background-color: rgb(12, 12, 41);
+  color: white;
+  display: flex;
+}
+.logo {
+  font-size: large;
+  font-family: "Courier New", Courier, monospace;
+  padding: 1rem;
+  margin-left: 10%;
+}
+.portfolio-nav ol {
+  display: flex;
+  margin-left: 50%;
+
+}
+.portfolio-nav a {
+  margin: 0 3rem 0 3rem;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none !important;
+  color:white;
+  
+}
+.portfolio-body {
+  height:85vh;
+  display: flex;
+}
+
+.home-p{
+  margin-top: 5rem;
+    margin-left: 3rem;
+    
+}
+.home-p button{
+ margin: 2rem;
+ height: 4rem;
+ width: 10rem;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ padding: 2px;
+ font-size: 1.5rem;
+}
+.cart{
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+}
+img{
+    height: 90%;
+    width: 70%;
+    object-fit: cover;
+}
+.porfolio-card{ 
+  background-color: rgb(123, 123, 123);
+ 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ padding: 5rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+font-size: 1.5rem;
+
+}
+.contact-card{
+  height: 40.0rem;
+  width: 40.0rem;
+  border: .3rem solid black;
+  border-radius: 4.0rem;
+  padding: 2rem;
+ 
+  background-color: rgb(214, 214, 214);
+  margin: 5rem;
+  margin-left: 55rem;
+
+}
+contact-form  , h1{
+  justify-content: center;
+  align-items: center;
+display: flex;
+}
+.contact-form input{
+ 
+  height: 3.0rem;
+  width: 30.0rem;
+  border: .3rem solid black;
+  border-radius: 4.0rem;
+  flex-direction: column;
+  margin: 3rem;
+  padding:0 0 0 2rem;
+}
+.contact-form button{
+margin-left: 15rem;
+height: 4rem;
+ width: 10rem;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ padding: 2px;
+ font-size: 1.5rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+@media (max-width:900px) {
+.dot{
+  margin-left: -50rem;
+  height: 10rem;
+  width: 2.0rem;
+}
+ 
+}
+@media (max-width:300px) {
+.dot{
+  margin-left: -50rem;
+  height: 5rem;
+  width: 2.0rem;
+  background-color: blue;
+}
+ 
+}

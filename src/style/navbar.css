@@ -2,21 +2,38 @@
 .navbar{
     background-color: #111;
     height: 10vh;
-    width: 100vw;
+    width: 100%;
 }
 
     
 .navbar-main a{
-    padding: 20px;
+    padding: 2.0rem;
     color: white;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 2.0rem;
+    width: 100%;
    
 }
-ul{
+.navbar-main ul{
     align-items: center;
     justify-content: center;
     display: flex;
-    padding: 20px;
-}   
+    padding: 2.0rem;
+}  
 
+html{
+    font-size: 62.5%;
+}
+
+@media (max-width:900px) {
+    html{
+        font-size: 55%;
+    }
+}
+
+@media (max-width:800px) {
+    html{
+        font-size: 30%;
+    }
+   
+}

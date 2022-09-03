@@ -4,14 +4,14 @@
     justify-content: center;
     align-items: center;
     display: flex;
+
     height: 100vh;
 }
 .main{
-    border: 3px solid black;
-    border-radius: 30px;
-    box-shadow: 10px 11px 12px 10px rgb(35, 34, 34);
-    padding: 25px;
-    cursor: pointer;
+    border: .3rem solid black;
+    border-radius: 3.0rem;
+    box-shadow: 1.0rem 1.1rem 1.2rem 1.0rem rgb(35, 34, 34);
+    padding: 2.5rem;
 }
 .main:hover {
     background: #000;
@@ -23,11 +23,14 @@
 
 li{
     list-style: none;
-    font-size: 25px;
+    font-size: 2.5rem;
     font-weight: bold;
-    padding: 10px 0 10px 0;
+    padding: 1.0rem 0 1.0rem 0;
 }
 
 span{
     color: rgb(100, 20, 20);
 }
+html {
+    font-size: 62.5%;
+  }
